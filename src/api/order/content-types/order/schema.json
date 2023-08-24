@@ -38,6 +38,14 @@
     },
     "supplierName": {
       "type": "string"
+    },
+    "product_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "productImage": {
+      "type": "string"
     }
   }
 }
